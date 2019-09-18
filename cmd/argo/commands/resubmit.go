@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/argoproj/argo/workflow/util"
-	"github.com/argoproj/pkg/errors"
+	"github.com/omesser/pkg/errors"
 	"github.com/spf13/cobra"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

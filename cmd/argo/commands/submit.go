@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/argoproj/pkg/json"
+	"github.com/omesser/pkg/json"
 	"github.com/spf13/cobra"
 
 	wfv1 "github.com/argoproj/argo/pkg/apis/workflow/v1alpha1"

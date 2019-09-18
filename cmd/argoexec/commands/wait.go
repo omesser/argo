@@ -3,7 +3,7 @@ package commands
 import (
 	"time"
 
-	"github.com/argoproj/pkg/stats"
+	"github.com/omesser/pkg/stats"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

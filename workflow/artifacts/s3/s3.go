@@ -7,8 +7,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 
 	wfv1 "github.com/argoproj/argo/pkg/apis/workflow/v1alpha1"
-	"github.com/argoproj/pkg/file"
-	argos3 "github.com/argoproj/pkg/s3"
+	"github.com/omesser/pkg/file"
+	argos3 "github.com/omesser/pkg/s3"
 )
 
 // S3ArtifactDriver is a driver for AWS S3

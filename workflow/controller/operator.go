@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	argokubeerr "github.com/argoproj/pkg/kube/errors"
-	"github.com/argoproj/pkg/strftime"
+	argokubeerr "github.com/omesser/pkg/kube/errors"
+	"github.com/omesser/pkg/strftime"
 	jsonpatch "github.com/evanphx/json-patch"
 	log "github.com/sirupsen/logrus"
 	"github.com/valyala/fasttemplate"

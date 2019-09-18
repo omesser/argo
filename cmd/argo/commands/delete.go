@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	argotime "github.com/argoproj/pkg/time"
+	argotime "github.com/omesser/pkg/time"
 	"github.com/spf13/cobra"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

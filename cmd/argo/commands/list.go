@@ -9,8 +9,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/argoproj/pkg/humanize"
-	argotime "github.com/argoproj/pkg/time"
+	"github.com/omesser/pkg/humanize"
+	argotime "github.com/omesser/pkg/time"
 	"github.com/spf13/cobra"
 	apiv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

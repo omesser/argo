@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/argoproj/pkg/cli"
-	kubecli "github.com/argoproj/pkg/kube/cli"
-	"github.com/argoproj/pkg/stats"
+	"github.com/omesser/pkg/cli"
+	kubecli "github.com/omesser/pkg/kube/cli"
+	"github.com/omesser/pkg/stats"
 	"github.com/spf13/cobra"
 	"k8s.io/client-go/kubernetes"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/azure"

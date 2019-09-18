@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/argoproj/pkg/errors"
+	"github.com/omesser/pkg/errors"
 	"github.com/spf13/cobra"
 
 	"github.com/argoproj/argo/workflow/util"

@@ -26,7 +26,7 @@ import (
 	"github.com/argoproj/argo/pkg/apis/workflow/v1alpha1"
 	workflowv1 "github.com/argoproj/argo/pkg/client/clientset/versioned/typed/workflow/v1alpha1"
 	"github.com/argoproj/argo/workflow/util"
-	"github.com/argoproj/pkg/errors"
+	"github.com/omesser/pkg/errors"
 )
 
 type logEntry struct {
